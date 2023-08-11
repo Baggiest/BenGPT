@@ -1,0 +1,24 @@
+{
+  "name": "bengpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsup src/index.ts && node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.10",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
